@@ -90,7 +90,7 @@ def main_helper():
                     json = json + '"' + msg.asElement().getElement("securityData").getElementAsString("security") + '": {' 
                     for datapoint in msg.asElement().getElement("securityData").getElement("fieldData").values():
                         date = datapoint.getElementAsString("date")
-                        json = json + '{"' + "DATE" + '": ' + date + ','
+                        json = json + '{"' + "DATE" + '": "' + date + '",'
                         #json = json + '"' + date + '": {'
                         for field in field_list:
                             json = json + '"' + field + '": "' + str(datapoint.getElementAsFloat(field)) + '",'
