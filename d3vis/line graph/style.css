@@ -1,0 +1,35 @@
+/*
+.container {
+	width: 450px;
+	height: 300px;
+	display: block;
+}
+
+.line {
+  fill: none;
+  stroke: #2ab04f;
+  stroke-width: 2.5px;
+} */
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #555;
+  shape-rendering: crispEdges;
+}
+
+.axis text {
+  fill: #555;
+}
+
+.line {
+  fill: none;
+  stroke: #ef0d0c;
+  stroke-width: 1.5px;
+}
+
+#graph {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
