@@ -27,7 +27,8 @@ def parseCmdLine():
 
 def main_helper():
     options = parseCmdLine()
-    json = "{"
+    #json = "{"
+    json = "["
     # Fill SessionOptions
     sessionOptions = blpapi.SessionOptions()
     sessionOptions.setServerHost(options.host)
@@ -89,7 +90,8 @@ def main_helper():
                     json = json + '"' + msg.asElement().getElement("securityData").getElementAsString("security") + '": {' 
                     for datapoint in msg.asElement().getElement("securityData").getElement("fieldData").values():
                         date = datapoint.getElementAsString("date")
-                        json = json + '"' + date + '": {'
+                        json = json + '{"' + "DATE" + '": ' + date + ","
+                        #json = json + '"' + date + '": {'
                         for field in field_list:
                             json = json + '"' + field + '": ' + str(datapoint.getElementAsFloat(field)) + ","
                         json = json[:-1]                        
@@ -102,14 +104,15 @@ def main_helper():
     finally:
         # Stop the session
         json = json[:-1]
-        json = json + "}"
+       # json = json + "}"
+        json = json + "]"
         return json
         session.stop()
 
 def main():
     json = main_helper()
     print json
-    
+
 if __name__ == "__main__":
     #print "SimpleHistoryExample"
     try:
