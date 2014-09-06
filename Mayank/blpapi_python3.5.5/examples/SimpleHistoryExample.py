@@ -57,7 +57,7 @@ def main_helper():
         
 
         request.getElement("securities").appendValue("IBM US Equity")
-        request.getElement("securities").appendValue("MSFT US Equity")
+        #request.getElement("securities").appendValue("MSFT US Equity")
         
        # request.getElement("securities").appendValue("FDDSGDP Index") #deficit as % of GDP
 
@@ -66,7 +66,7 @@ def main_helper():
         for field in field_list:
             request.getElement("fields").appendValue(field)
         request.set("periodicityAdjustment", "ACTUAL")
-        request.set("periodicitySelection", "YEARLY")
+        request.set("periodicitySelection", "MONTHLY")
         request.set("startDate", "19900101")
         request.set("endDate", "20061231")
         request.set("maxDataPoints", 100)
