@@ -60,7 +60,7 @@ def main():
        # request.getElement("securities").appendValue("FDDSGDP Index") #deficit as % of GDP
 
 
-        field_list = ["PX_LAST", "OPEN"]
+        field_list = ["LAST_PRICE", "OPEN", "VOLUME", "YEST_LAST_TRADE"] 
         for field in field_list:
             request.getElement("fields").appendValue(field)
         request.set("periodicityAdjustment", "ACTUAL")
