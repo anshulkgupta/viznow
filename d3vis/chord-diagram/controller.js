@@ -63,7 +63,7 @@ d3.csv("cities.csv", function(cities) {
 
     // Remove the labels that don't fit. :(
     groupText.filter(function(d, i) {
-      return groupPath[0][i].getTotalLength() / 2 - 16 < this.getComputedTextLength();
+      return groupPath[0][i].getTotalLength() / 2 - 20 < this.getComputedTextLength();
     }).remove();
 
     // Add the chords.
