@@ -1,0 +1,17 @@
+.top-half {
+	position: relative;
+	height: 200px;
+	width: 100%;
+	background-color:#ff69b4;
+	float:left;
+	margin-right: 2%;
+}
+
+
+.bottom-half {
+	position: relative;
+	height: 200px;
+	width: 100%;
+	background-color:#7ec0ee;
+	float:left;
+}

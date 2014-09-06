@@ -1,0 +1,182 @@
+/*  SECTIONS  */
+.section {
+	clear: both;
+	font-size: 110%;
+	margin: 0px;
+	/*border-radius: 10px;*/
+}
+
+.section:hover {
+	font-weight: 700;
+}
+
+.section:hover > .win {
+	background-color: #AAFFAA;
+}
+
+.section:hover > .lose {
+	background-color: #FFAAAA;
+}
+
+.section:hover > .teamName {
+	background-color: #222222;
+	color: white;
+}
+
+.section:hover > .record {
+	background-color: #222222;
+	color: white;
+}
+
+.win:hover {
+	background-color: #00FF00 !important;
+}
+
+.lose:hover {
+	background-color: #FF0000 !important;
+}
+
+
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float:left;
+	/*text-align:center; */
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	padding: 10px;
+}
+.col:before { 
+	content: "\00a0 "; 
+}
+
+.col:first-child { margin-left: 0; }
+
+
+/*  GROUPING  */
+.group:before,
+.group:after {
+	content:"";
+	display:table;
+}
+.group:after {
+	clear:both;
+}
+.group {
+    zoom:1; /* For IE 6/7 */
+}
+                                               
+					
+/*  GRID OF TWELVE  */
+.teamName {
+	/* 2/12 */
+	width: 13.5%;
+}
+
+.record {
+	/* 1/12 */
+  	width: 6%;
+  	text-align: center;
+}
+
+.round6 {
+  	width: 11.88%;
+}
+
+.round7 {
+  	width: 10.6%;
+}
+
+.win {
+	background: #ccc;
+	background: rgba(144, 238, 144, 0.85);
+}
+
+/* Standardeven/Standardodd formats the color*/
+.standardeven {
+		background: #ccc;
+		background: #FFDB88;
+}
+
+.standardodd {
+		background: #ccc;
+		background: #F0FFFF;
+}
+
+.tableheader {
+	background: #ccc;
+	background: #A9A9A9;
+	position:fixed;
+	width: 81%;
+	top:200px;
+	z-index: 900000;
+
+}
+
+.lose {
+		background: #ccc;
+		background: rgba(230, 103, 97, 0.85);
+}
+
+.entry_table {
+	background-color: white;
+}
+
+.entry {
+	cursor: pointer;
+	z-index: 5;
+}
+
+.entry:hover {
+	box-shadow: 0px 0px 25px 0px rgba(50, 50, 50, 0.75);
+	z-index: 100;
+}
+
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+	.col { 
+		margin: 1% 0 1% 0%;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.span_12_of_12 {
+		width: 100%; 
+	}
+	.span_11_of_12 {
+		width: 100%; 
+	}
+	.span_10_of_12 {
+		width: 100%; 
+	}
+	.span_9_of_12 {
+		width: 100%; 
+	}
+	.span_8_of_12 {
+		width: 100%; 
+	}
+	.span_7_of_12 {
+		width: 100%; 
+	}
+	.span_6_of_12 {
+		width: 100%; 
+	}
+	.span_5_of_12 {
+		width: 100%; 
+	}
+	.span_4_of_12 {
+		width: 100%; 
+	}
+	.span_3_of_12 {
+		width: 100%; 
+	}
+	.span_2_of_12 {
+		width: 100%; 
+	}
+	.span_1_of_12 {
+		width: 100%;
+	}
+}

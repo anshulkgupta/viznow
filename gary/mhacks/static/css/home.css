@@ -1,0 +1,33 @@
+body {
+    background-image: url('http://www.psdgraphics.com/file/colorful-triangles-background.jpg');
+    background-size: 100%;
+    background-color: #cccccc;
+}
+
+.home_title {
+	margin-left: 38%;
+	margin-top: 10%;
+	font-size: 800%;
+	font-family: 'Indie Flower', cursive;
+}
+
+.background-yellow {
+	background-color: rgba(255, 255, 153, 0.5);
+	padding-left: 3%;
+	padding-right: 3%;
+}
+
+.home_button {
+	margin-left: 45%;
+	margin-top: 5%;
+	font-size: 300%;
+	font-family: 'Indie Flower', cursive;
+}
+
+.visualize_button {
+	cursor: pointer;
+}
+
+.main_logo {
+	font-family: 'Indie Flower', cursive;
+}

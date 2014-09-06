@@ -1,0 +1,40 @@
+html { 
+  background: url("http://www.wildtextures.com/wp-content/uploads/2011/11/wildtextures-old-paper-closeup-texture.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Roboto', sans-serif;
+}
+
+/*
+http://www.printfree.com/office_forms/FormImages/Graph_paper3.gif
+*/
+
+.main {
+	font-size:300%;
+	text-align: center;
+	color: #BB1620;
+	background-color: #F6921D;
+	border-radius: 20px;
+	width: 40%;
+	margin-right: 30%;
+	margin-left: 30%;
+	margin-top: 0;
+}
+
+
+.logo {
+	margin-left: 25%;
+	margin-right: 25%;
+	margin-top: 10%;
+	width:50%;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
