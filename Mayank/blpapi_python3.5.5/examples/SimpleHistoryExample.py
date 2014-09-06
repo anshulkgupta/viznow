@@ -24,7 +24,8 @@ def parseCmdLine():
     return options
 
 
-def main():
+
+def main_helper():
     options = parseCmdLine()
     json = "{"
     # Fill SessionOptions
@@ -32,7 +33,7 @@ def main():
     sessionOptions.setServerHost(options.host)
     sessionOptions.setServerPort(options.port)
 
-    print "Connecting to %s:%s" % (options.host, options.port)
+    #print "Connecting to %s:%s" % (options.host, options.port)
     # Create a Session
     session = blpapi.Session(sessionOptions)
 
@@ -72,7 +73,9 @@ def main():
         #request.getElement("securities").getValueAs(arr, 0)
         #for x in arr:
         #	print x
-        print "Sending Request:", request
+        
+        #print "Sending Request:", request
+        
         # Send the request
         session.sendRequest(request)
 
@@ -100,11 +103,15 @@ def main():
         # Stop the session
         json = json[:-1]
         json = json + "}"
-        print json
+        return json
         session.stop()
 
+def main():
+    json = main_helper()
+    print json
+    
 if __name__ == "__main__":
-    print "SimpleHistoryExample"
+    #print "SimpleHistoryExample"
     try:
         main()
     except KeyboardInterrupt:
