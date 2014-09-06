@@ -1,0 +1,23 @@
+body {
+    background-image: url('http://c3e308.medialib.glogster.com/media/cd/cd526905e568a6ca76608763a0f0849e3e49f895d1730808e9e849253a014958/blue-pattern-twitter-background.jpg');
+    background-size: 80%;
+    background-color: #cccccc;
+}
+
+.home_welcome1 {
+	padding-left: 32%;
+	font-size:500%;
+	margin-bottom: 10%;
+	margin-top: 5%;
+	font-family: 'Indie Flower', cursive;
+	color: #FA8072;
+	font-weight: bold;
+}
+
+.home_welcome2 {
+	padding-left: 29%;
+	font-size:500%;
+	font-family: 'Indie Flower', cursive;
+	color: #FA8072;
+	font-weight: bold;
+}

@@ -1,0 +1,131 @@
+<head>
+    {% load staticfiles %}
+    <script src="{% static 'js/constants.js' %}"></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="ThemeBucket">
+    <link rel="shortcut icon" href="images/favicon.png">
+    <title>VizNow</title>
+    <!--Core CSS -->
+    <link href="{% static 'bs3/css/bootstrap.min.css' %}" rel="stylesheet">
+    <link href="{% static 'css/bootstrap-reset.css' %}" rel="stylesheet">
+    <link href="{% static 'assets/font-awesome/css/font-awesome.css' %}" rel="stylesheet">
+    <link href="{% static 'assets/jvector-map/jquery-jvectormap-1.2.2.css' %}" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+    <link href="{% static 'css/clndr.css' %}" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="{% static 'css/style.css' %}" rel="stylesheet">
+    <link href="{% static 'css/custom.css' %}" rel="stylesheet">
+    <link href="{% static 'css/upload.css' %}" rel="stylesheet">
+    <link href="{% static 'css/style-responsive.css' %}" rel="stylesheet"/>
+    {% block css %}
+    {% endblock %}
+    <!--[if lt IE 9]><script src="js/ie8/ie8-responsive-file-warning.js"></script><![endif]-->
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+    <script src="{% static 'js/vendor/jquery.js' %}"></script>
+</head>
+<script src="{% static 'js/global.js' %}"></script>
+
+<!--header start-->
+  <header class="header fixed-top clearfix background-blue">
+<!--logo start-->
+        <div class="brand">
+            <a href="/home" class="logo main_logo">
+                <span class = "main_logo">
+                  VizNow
+                </span>
+            </a>
+        </div>
+        <!--logo end-->
+    <div class="nav notify-row" id="top_menu">
+        <!--  notification goes here -->
+    </div>
+    <div class="top-nav clearfix">
+        <!--search & user info goes here-->
+        <!-- <ul class = "nav pull-right top-menu"> -->
+            <!-- <li> -->
+            
+    </div>
+</header>
+<!--header end-->
+
+<!--sidebar start-->
+    <aside>
+        <div id="sidebar"  class="nav-collapse ">
+             <!-- sidebar menu goes here-->
+             <ul class="sidebar-menu" id="nav-accordion">
+             <li>
+                <a class="active" href="/upload">
+                    <i class="fa fa-cloud-upload"></i>
+                    <span class = "sb-tab">Upload</span>
+                </a>
+            </li>
+            </ul>
+        </div>
+    </aside>
+<!--sidebar end-->
+
+<!--main content start-->
+  <section id="main-content">
+      <section class="wrapper">
+          <!--main content goes here-->
+          {% block content %}
+          {% endblock %}
+      </section>
+  </section>
+<!--main content end-->
+
+
+<!--right sidebar start-->
+<div class="right-sidebar">
+<div class="search-row">
+    <input type="text" placeholder="Search" class="form-control">
+</div>
+<ul class="right-side-accordion">
+<!--sidebar list goes here-->
+</ul>
+</div>
+<!--right sidebar end-->
+
+<!-- Placed js at the end of the document so the pages load faster -->
+<!--Core js-->
+<script src="{% static 'js/vendor/jquery.js' %}"></script>
+<script src="{% static 'bs3/js/bootstrap.min.js' %}"></script>
+<script src="{% static 'js/vendor/jquery.dcjqaccordion.2.7.js' %}"></script>
+<script src="{% static 'js/vendor/jquery.scrollTo.min.js' %}"></script>
+<script src="{% static 'js/vendor/jquery.nicescroll.js' %}" type="text/javascript"></script>
+<!--[if lte IE 8]><script language="javascript" type="text/javascript" src="js/flot-chart/excanvas.min.js"></script><![endif]-->
+<script src="{% static 'js/vendor/jquery.slimscroll.js' %}"></script>
+<script src="{% static 'js/vendor/skycons.js' %}"></script>
+<script src="{% static 'js/vendor/jquery.scrollTo.min.js' %}"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+<script src="{% static 'js/vendor/clndr.js' %}"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+<script src="{% static 'js/vendor/moment-2.2.1.js' %}"></script>
+<script src="{% static 'assets/jvector-map/jquery-jvectormap-1.2.2.min.js' %}"></script>
+<script src="{% static 'assets/jvector-map/jquery-jvectormap-us-lcc-en.js' %}"></script>
+<script src="{% static 'assets/gauge/gauge.js' %}"></script>
+<script src="{% static 'assets/easypiechart/jquery.easypiechart.js' %}"></script>
+<script src="{% static 'assets/sparkline/jquery.sparkline.js' %}"></script>
+<script src="{% static 'assets/flot-chart/jquery.flot.js' %}"></script>
+<script src="{% static 'assets/flot-chart/jquery.flot.tooltip.min.js' %}"></script>
+<!--<script src="assets/flot-chart/jquery.flot.pie.js"></script>-->
+<script src="{% static 'assets/flot-chart/jquery.flot.resize.js' %}"></script>
+<script src="{% static 'assets/flot-chart/jquery.flot.pie.resize.js' %}"></script>
+<script src="{% static 'assets/flot-chart/jquery.flot.animator.min.js' %}"></script>
+<script src="{% static 'js/vendor/dashboard.js' %}"></script>
+<!--common script init for all pages-->
+<script src="{% static 'js/vendor/scripts.js' %}"></script>
+
+
+{% block javascript %}
+{% endblock %}
+<!--script for this page-->
+</body>
+</html>

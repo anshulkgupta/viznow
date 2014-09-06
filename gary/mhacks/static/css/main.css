@@ -1,0 +1,439 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+}
+
+.logo:hover {
+	opacity: 0.7;
+}
+
+.container-fluid {
+	height: 100%;
+}
+
+.container {
+	width: 100%;
+}
+
+.row {
+	height: 100%;
+}
+
+.input-group {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 300px;
+}
+
+.container {
+	display: none;
+}
+
+.subsidebar {
+	display: none;
+	color: #C41117;
+	background-color: #D3D3D3;
+}
+
+.subsidebar:hover {
+	background-color: #909090 !important;
+	font-weight: 700;
+}
+
+.click:hover {
+	background-color: #606060 !important;
+	font-weight: 700;
+}
+
+.tournament:hover {
+	/*background-color: #606060 !important;*/
+	font-weight: 700;
+}
+
+.active:hover {
+	background-color: #C41117 !important;
+}
+
+.subsidebar:hover {
+	color: #C41117;
+}
+
+#container-home {
+	display: ;
+}
+
+.entry_table{
+	top: 110px;
+}
+
+.header {
+	position:fixed;
+	width: 81%;
+	z-index: 1000;
+	background-color: #f5f5f5;
+	margin-top: -15px;
+	padding-top: 15px;
+
+}
+
+.win {
+	background-color: #d9ead3;
+	height: 100%;
+}
+
+.lose{
+	background-color: #f4cccc;
+}
+
+/*
+#entry_section {
+	width: 20%;
+	height: 400px;
+}
+
+.entry_table {
+	overflow: auto;
+	background-color: white;
+	border-radius: 10px;
+	height: 400px;
+	width: 100%;
+}
+*/
+.main{
+	background-color: #F1F2F7;
+	height: 100%;
+	padding: 0 !important;
+}
+
+.html {
+	background-color: #F5F5F5;
+}
+
+.logo {
+	width: 200px;
+	padding: 5px;
+}
+
+.tournament {
+	color: #C41117;
+	cursor: pointer;
+}
+
+.tournament:hover {
+	color: #C41117;
+}
+
+/*.tourn_section_title {
+	color: #F39000;
+	text-align: center;
+	background-color: #C41117;
+	font-size: 200%;
+}*/
+
+.team_page {
+	background-color: #FFFFFF;
+	padding: 40px;
+	position: relative;
+}
+
+.team_code {
+	font-size: 200%;
+	font-weight: 900;
+    /*text-align: center;*/
+}
+
+.team_name {
+	font-size: 120%;
+    /*text-align: center;*/
+}
+
+.team_stats_divider {
+	height: 100px;
+	width: 1px;
+	background-color: #C0C0C0;
+	position: absolute;
+	left: 700px;
+	top:20px;
+}
+
+#admin {
+	color: #C41117 !important;
+}
+
+.tournaments {
+	margin-top: 60px;
+	width: 30%;
+	float: left;
+	/*border: 1px solid black;
+	border-radius: 5px;
+*/	margin-left: -40px;
+    background-color: #FFFFFF;
+}
+
+.tournaments_title {
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 130%;
+	width:100%;
+	font-weight: 900;
+	/*background-color: #C41117;*/
+	color: #FFB732;
+}
+
+.tournament_list {
+	text-align: center;
+	font-size: 110%;
+	width:100%;
+}
+
+.tourn-entered {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.tourn-entered-clicked {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #C0C0C0;
+	color: #C41117;
+	font-weight: 700;
+}
+
+.tourn-entered:hover {
+	background-color: #E6E6E6;
+	cursor: pointer;
+}
+
+.rounds_table {
+	font-size: 110%;
+	text-align: center;
+    float: left;
+    margin-left: 2%;
+    margin-top: 60px;
+    width: 70%;
+    display: none;
+    background-color: white;
+    padding: 10px;
+}
+
+.table_round {
+	width:100%;
+	height: 20px;
+	padding-top: 7px;
+	padding-bottom: 28px;
+	float:left;
+}
+
+.won_round:hover {
+	background-color: #AAFFAA;
+	cursor: pointer;
+}
+
+.lost_round:hover {
+	background-color: #FFAAAA;
+	cursor: pointer;
+}
+
+.won_round {
+	background-color: #DDFFDD;
+}
+
+.lost_round {
+	background-color: #FFDDDD;
+}
+
+.round_num {
+    float: left;
+    width: 10%;
+}
+
+.round_side {
+    float: left;
+    width: 15%;
+}
+
+.opponent_name {
+	float: left;
+	width: 60%;
+}
+
+.round_decision {
+	float: left;
+	width: 15%;
+}
+
+.round_divider {
+	width: 100%;
+	height: 1px;
+	float: left;
+	background: #E6E6E6;
+	margin-top: 7px;
+}
+
+.table_head {
+	text-align: center;
+	width:100%;
+	font-weight: 700;
+	height: 20px;
+	padding-top: 10px;
+	padding-bottom: 31px;
+	padding-left: 8px;
+	padding-right: 8px;
+	float:left;
+	background-color: #C0C0C0 !important;
+	color: #C41117;
+	margin-bottom: 0px;
+}
+
+.create_form {
+	background-color: #FFFFFF;
+	margin: 15px;
+	padding: 30px;
+}
+
+.text_input {
+	outline: none !important;
+	position: relative;
+	display: block;
+	margin: 0 auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding: 15px;
+	border-radius: 5px;
+	border: 2px solid #F1F2F7;
+	float: none;
+	width: 45%;
+	font-size: 120%;
+}
+
+.text_input:focus {
+	border: 2px solid #C41117;
+}
+
+.complete_button {
+	outline: none !important;
+	position: relative;
+	display: block;
+	margin: 0 auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding: 15px;
+	border-radius: 5px;
+	border: 2px solid #EEEEEE;
+	background-color: #C41117;
+	color: white;
+	float: none;
+	width: 45%;
+	font-size: 140%;
+}
+
+.page_title {
+	font-size: 300%;
+	font-weight: 700;
+	color: #C41117;
+}
+
+.page_head_divider {
+	height: 80%;
+	width: 1px;
+	background-color: #C0C0C0;
+	position: absolute;
+	left: 33%;
+	top: 10%;
+}
+
+.page_header {
+	position: fixed;
+	padding: 30px;
+	background-color: #FFFFFF;
+	margin: 1%;
+	width: 81.5%;
+	z-index: 999999;
+}
+
+.after_header_seperator {
+	margin: .25%;
+	height: 22%;
+	width: 84%;
+	z-index: 888888;
+	background-color: #F1F2F7;
+	position: fixed;
+}
+
+.after_header_grey {
+	height: 209px;
+	background-color: #F1F2F7;
+}
+
+.form_after_header_seperator {
+	margin: .25%
+	;
+	height: 17%;
+	width: 84%;
+	z-index: 888888;
+	background-color: #F1F2F7;
+	position: fixed;
+}
+
+.form_after_header_grey {
+	height: 150px;
+	background-color: #F1F2F7;
+}
+
+.sub_header {
+	padding: 40px;
+	background-color: #FFFFFF;
+	margin: 1%;
+	position: relative;
+}
+
+.sub_header_text {
+	font-size: 120%;
+	font-weight: 700;
+}
+
+.full_page {
+	background-color: #FFFFFF;
+	margin: 1%;
+	width: 98%;
+	overflow: auto;
+	height: 600px;
+}
+
+.half_full_page {
+	padding: 20px;
+	background-color: #FFFFFF;
+	margin: 1%;
+	width: 47.9%;
+	float:left;
+	height: 60%;
+}
+
+.round_half_divider {
+	width: 1px;
+	background-color: #C0C0C0;
+	height: 65%;
+	float: left;
+}
+
+.round_page {
+	height: 100%;
+}
+
+#toggle-icon {
+   padding: 10px;
+   border-radius: 20px;
+   outline: none;
+   border: none;
+   margin-top: 7px;
+}

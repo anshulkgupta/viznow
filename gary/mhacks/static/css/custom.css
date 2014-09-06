@@ -1,0 +1,450 @@
+.udl_table_header:hover {
+	cursor: pointer;
+	color: #AB070F;
+}
+
+.archived_table_header_column:hover {
+	cursor: pointer;
+	color: #AB070F;
+}
+
+.entry_row:hover {
+	cursor: pointer;
+}
+
+.aff_team_code:hover {
+	cursor: pointer;
+}
+
+.neg_team_code:hover {
+	cursor: pointer;
+}
+
+.team-code {
+	cursor: pointer;
+}
+
+.team-code:hover {
+	color: #AB070F;
+}
+
+.table {
+	font-size: small;
+}
+
+.judge_table_header:hover {
+	cursor: pointer;
+	color: #AB070F;
+}
+
+.team-row{
+	color: black;
+	font-weight: 700;
+	cursor: pointer;
+}
+
+.blue-bg {
+	background-color: #6495ED;
+}
+
+.mainpage-round {
+	cursor: pointer;
+}
+
+.round-won:hover {
+	color: white;
+}
+
+.round-loss:hover {
+	color: white;
+}
+
+.round-undecided:hover {
+	color: #AB070F;
+}
+
+.team_tourn_round {
+	cursor: pointer;
+}
+
+.team_tourn_elim_round {
+	cursor: pointer;
+}
+
+.about-btn:hover {
+	font-weight: 900;
+	color: #AB070F;
+}
+
+.archive_row_year {
+	font-size: 200%;
+}
+
+.judge_row_year:hover{
+	cursor:pointer;
+}
+
+.archive_row:hover{
+	cursor:pointer;
+}
+
+.archive_row_year:hover{
+	cursor:pointer;
+}
+
+.tourn-btn{
+	color: #32323A;
+	padding: 10px 20px;
+	font-size:150%;
+	border-radius: 0;
+}
+
+.tourn-button-active {
+	color: white;
+	background-color: #AB070F;
+}
+
+.tourn-btn:hover{
+	background-color: #F3F3F3;
+	border-color: #F3F3F3;
+}
+
+.bracket { 
+	height:85%;
+	border-width:10px;
+	border-color:#000000;
+	margin:0px;
+	overflow:scroll;
+}
+
+.bracket_box { 
+  height:1000px;	
+}
+
+.stars-avatar {
+	max-width:60px;
+	height:auto;
+}
+
+.reviews {
+	margin-bottom: 20px;
+}
+
+.review-name-text {
+	font-size: 105%;
+	font-weight:600;
+}
+
+.review-message{
+	padding-left: 10px;
+	padding-top: 5px;
+}
+
+.col { 
+	height:1050px;
+	width:13%;
+	border-style:solid; 
+	border-width:0px;
+	border-color:#FF00FF;
+	float:left;
+}
+
+.review-title-text {
+	font-size: 115%;
+	font-weight: bold;
+}
+
+.review-title-date {
+	font-style: italic;
+}
+
+.bracket_text { 
+	text-align:center;
+	bottom:0px;
+	left:65px;
+	position:absolute;
+}
+
+.Doubles { 
+	height:32px; 
+	border-bottom-style:solid;
+	border-width:1px;
+	border-color:black;
+	position:relative;
+}
+
+
+.Octos { 
+	height:64px; 
+	border-bottom-style:solid;
+	border-width:1px;
+	border-color:black;
+	position:relative;
+}
+
+
+.Quarters { 
+	height:128px; 
+	border-bottom-style:solid;
+	border-width:1px;
+	border-color:black; 
+	position:relative;
+}
+
+.Semifinals { 
+	height:256px; 
+	border-bottom-style:solid;
+	border-width:1px;
+	border-color:black; 
+	position:relative;
+}
+
+
+.Finals { 
+	height:512px; 
+	border-bottom-style:solid;
+	border-width:1px;
+	border-color:black; 
+	position:relative;
+}
+
+.top_elim_round { 
+	border-bottom-style:solid;
+	border-width:1px;
+	border-color:black; 
+	position:relative;
+}
+
+.maps_info_window { 
+	height:40px;
+	width:185px;
+}
+
+.maps_info_window_text { 
+	text-align:center;
+}
+
+.maps_info_window_bubble { 
+	float:left;
+	padding-right:2px;
+}
+
+.maps_dropdown_box { 
+	height:100px;
+	width:100px; 
+}
+
+.maps_select_menu { 
+	width:100px; 
+	background-color:white;
+	color:black;
+}
+
+.tourn_list_box { 
+	float:left;
+
+}
+
+.tournament_list_row:hover {
+	cursor: pointer;
+}
+
+.tournament_list_row:hover h6{
+	color: #AB070F !important;
+	font-weight: 700;
+}
+
+.tourn_list_text {
+	text-align:left;
+
+}
+
+.tourn_list_bubble { 
+	float:left;
+	padding-top:2px;
+	padding-right:4px;
+}
+
+.admin_round_row:hover {
+	cursor: pointer;
+}
+
+.admin_round_row:hover > .bg-success {
+	background-color: #C2FF85;
+}
+
+.admin_round_row:hover > .bg-danger {
+	background-color: #FF7A7A;
+}
+
+.aff-side-admin:hover {
+	background-color: #DFF0D8;
+	cursor: pointer;
+}
+
+.neg-side-admin:hover {
+	background-color: #DFF0D8;
+	cursor: pointer;
+}
+
+.admin-round-row {
+	cursor: pointer;
+}
+
+.sortable-table-header {
+	cursor: pointer;
+}
+
+.sortable-table-header:hover {
+	color: #AB070F;
+}
+
+.modal-judge {
+	text-align: center;
+}
+
+.bg-bright-win {
+	background-color: #5CB85C;
+	color: black;
+	font-weight: 700;
+}
+
+.bg-bright-loss {
+	background-color: #D54937;
+	color: black;
+	font-weight: 700;
+}
+
+.update-win-button {
+	background-color: #D54937;
+	width: 300px;
+	height: 300px;
+	border-radius: 400px;
+	margin: 0 auto;
+	display: table;
+}
+
+.update-win-button:hover {
+	background-color: #FF3030;
+}
+
+.update-win-button:active {
+	background-color: #B20000;
+}
+
+.updatewinloss-text {
+	color: black;
+	font-size: 200%;
+	text-align: center;
+	font-weight: 700;
+}
+
+.createround-btn {
+	cursor: pointer;
+	padding: 15px;
+}
+
+.createround-btn:hover {
+	background-color: #f5f5f5;
+}
+
+.choosecol-col {
+	cursor: pointer;
+}
+
+.choosecol-col:hover {
+	background-color: #f5f5f5;
+}
+
+.choosecol-col.selected {
+	background-color: #AB070F;
+	color: white;
+	font-weight: 700;
+}
+
+.kritstats-form-input {
+	color: black;
+	font-weight: 600;
+}
+
+.kritstats-form-input:focus {
+	border-color: #AB070F;
+}
+
+#entries_search {
+	position: relative;
+}
+
+#elims_search {
+	position: relative;
+}
+
+.tourn-search-bar {
+	width: 100%;
+	margin-top: 4px;
+	font-size: 17px;
+	padding: 8px;
+	padding-left: 35px;
+	border-radius: 10px;
+	border: 1px solid #A4AEBC;
+	color: #555361;
+}
+
+.tourn-search-bar:focus {
+	border-radius: 30px;
+	border-color: #AB070F;
+}
+
+
+.judges-search-box {
+	width: 100%;
+	margin-top: 14px;
+	font-size: 17px;
+	padding: 8px;
+	padding-left: 35px;
+	border-radius: 10px;
+	border: 1px solid #A4AEBC;
+	color: #555361;
+}
+
+.judges-search-box:focus {
+	border-radius: 30px;
+	border-color: #AB070F;
+}
+
+.search-icon {
+	position: absolute;
+	top: 25;
+	font-size: 20px;
+	color: #AB070F;
+	left: 25;
+}
+
+.tourn-search-icon {
+	position: absolute;
+	top: 15;
+	font-size: 20px;
+	color: #AB070F;
+	left: 25;
+}
+
+.admin-header {
+    display: inline-block;
+    text-align: center;
+    vertical-align:middle;
+    background-image:none;
+    border: 1px solid transparent;
+    font-size:30px;
+    color:#f69200;
+}
+
+.tourn-page-header {
+	display: inline-block;
+	padding-left: 15px;
+    text-align: center;
+    vertical-align:middle;
+    background-image:none;
+    border: 1px solid transparent;
+    font-size:30px;
+    color:#f69200;
+}
