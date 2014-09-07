@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This flight animation uses d3.js geo and SVG transition.">
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/v4.css">
+    <script src="http://code.jquery.com/jquery-2.0.0.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+    <title>VizNow</title>
+    
+<link rel="stylesheet" href="../css/v4blue.css">
+<style>
+.countries {
+  fill: #b0d0ab;
+  stroke: #6cb0e0;
+  stroke-width: 0.5px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  vector-effect: non-scaling-stroke;
+}
+.airports {
+  fill: #036;
+  stroke: #6cb0e0;
+  stroke-width: 0.5px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  vector-effect: non-scaling-stroke;
+}
+.route {
+  fill: none;
+  stroke-width: 0;
+}
+.plane {
+  fill: #fff;
+  stroke-width: 0;
+}
+@media(max-width: 768px) {
+  #map {
+    margin-top: -100px;
+  }
+}
+@media(min-width: 768px) {
+  #map {
+    margin-top: -200px;
+  }
+}
+</style>
+
+  </head>
+  <body>
+    <div class="header">
+      <div class="container">
+        <div class="row">
+  
+        </div>
+      </div>
+    </div>
+
+    <div class="content">
+      
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      
+<div class="text-center">
+</div>
+
+    </div>
+    <div class="col-xs-12">
+      <h2>VizNow</h2>
+      <p class="lead" style="margin-bottom: 0;">You get the data; we make it beautiful.</p>
+    </div>
+  </div>
+</div>
+<div id="map"></div>
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12" style="margin-bottom: 30px;">
+      
+<div style="margin-top: 20px;" class="text-center">
+  
+</div>
+
+    </div>
+  </div>
+</div>
+
+    </div>
+    <div class="footer">
+      <div class="container">
+          <div>
+            <p class="copy">&copy;2014 <a href="">Columbia kids.</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="http://d3js.org/queue.v1.min.js"></script>
+<script src="http://d3js.org/topojson.v1.min.js"></script>
+<script src="../js/flightanimation.js"></script>
+
+  </body>
+</html>
+<!-- Localized -->
