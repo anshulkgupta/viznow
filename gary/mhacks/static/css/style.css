@@ -383,6 +383,14 @@ ul.sidebar-menu li a.active i {
     height:80px;
     position:relative;
 }
+
+
+.line{
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 2px;
+}
+
 a.logo {
     font-size:36px;
     color:#2e2e2e;
@@ -397,6 +405,9 @@ a.logo:hover,a.logo:focus {
     text-decoration:none;
     outline:none;
 }
+
+
+
 a.logo span {
     color: #87CEFA;
 }

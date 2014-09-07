@@ -48,37 +48,19 @@ body {
   display: none;
 }
 
-.line1 {
-  fill: none;
-  stroke: steelblue;
-  stroke-width: 1.5px;
-}
-.line2 {
-  fill: none;
-  stroke: red;
-  stroke-width: 1.5px;
-}
-.line3 {
-  fill: none;
-  stroke: green;
-  stroke-width: 1.5px;
-}
-.line4 {
-  fill: none;
-  stroke: orange;
-  stroke-width: 1.5px;
-}
-.line5 {
-  fill: none;
-  stroke: black;
-  stroke-width: 1.5px;
-}
-
 #graph {
   width: 100%;
   height: 100%;
   position: absolute;
 }
+
+
+.line{
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
+
 #circle circle {
   fill: none;
   pointer-events: all;
