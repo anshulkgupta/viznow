@@ -1,19 +1,19 @@
-$(document).ready(function(){
 
-    var getData = function(){
-        $.getJSON("data.json", function(content){
-            //console.log(content);
-            lineGraph(content);
-        });
-    };
 
-    var lineGraph = function(data) {
+var getData = function(options){
+    $.getJSON(options.filename, function(content){
+        console.log(content, options);
+        lineGraph(content, options);
+    });
+};
+
+var lineGraph = function(data, options) {
         //console.log(data);
         var WIDTH = 800, HEIGHT = 380;
-        var Y_AXIS_LABEL = "Mean Temperature (F)";
+        var Y_AXIS_LABEL = options.yaxislabel;
         var X_DATA_PARSE = d3.time.format("%Y-%m-%d").parse;
-        var X_AXIS_COLUMN = "PST";
-        var Y_AXIS_COLUMN = "Mean TemperatureF";
+        var X_AXIS_COLUMN = options.xaxis;
+        var Y_AXIS_COLUMN = options.yaxis;
         data.forEach(function(d){ 
             d.x_axis = X_DATA_PARSE(d[X_AXIS_COLUMN]);
             d.y_axis = +d[Y_AXIS_COLUMN];
@@ -52,5 +52,10 @@ $(document).ready(function(){
 
     };
 
-    getData();
-});
+var options = {
+        "filename" : "data.json",
+        "yaxislabel" : "Mean Temperature (F)", 
+        "xaxis" : "PST",
+        "yaxis" : "Mean TemperatureF"
+};
+getData(options);
