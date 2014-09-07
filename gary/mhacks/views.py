@@ -17,6 +17,9 @@ def home_page(request):
 def enter_page(request):
   return render(request, 'enter.html')
 
+def fileupload_page(request):
+  return render(request, 'fileupload.html')
+
 def upload_page(request):
   return render(request, 'upload1.html')
 

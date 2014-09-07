@@ -50,12 +50,11 @@
               y-coordinate: 
             </div>
             <div class = "col-lg-6">
-              <select class="form-control m-bot15 not-top">
-                  <option>1</option>
-                  <option>2</option>
-                  <option>3</option>
-                  <option>4</option>
-                  <option>5</option>
+              <select name = "list" class="form-control m-bot15 not-top">
+                  <option id= "LAST_PRICE">Last Price</option>
+                  <option id= "Volume">Volume</option>
+                  <option id= "Open">Open</option>
+                  <option id= "YESTERDAY_LAST_RATE">Yesterday's Last Rate</option>
               </select>
             </div>
           </div>
@@ -86,4 +85,5 @@
 </div>
 
 <script src="{% static 'js/visualization.js' %}"></script>
+<script src="{% static 'js/bloomberg.js' %}"></script>
 {% endblock %}

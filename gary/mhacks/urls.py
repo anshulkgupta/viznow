@@ -7,6 +7,7 @@ admin.autodiscover()
 urlpatterns = patterns('',
     url(r'^$', 'mhacks.views.enter_page'),
     url(r'^home/?$', 'mhacks.views.home_page'),
+    url(r'^page/fileupload/?$', 'mhacks.views.fileupload_page'),
     url(r'^upload/?$', 'mhacks.views.upload_page'),
     url(r'^upload/submit/?$', 'mhacks.views.handle_upload'),
     url(r'^page/(?P<id>[A-Za-z0-9-_]+)/*$', 'mhacks.views.upload_unique_page'),

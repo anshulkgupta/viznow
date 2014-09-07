@@ -7,7 +7,7 @@ function bloomberg_button(){
 
 function custom_button(){
   $(".custom_data").click(function() {
-    var url = 'http://127.0.0.1:8000/page/Custom'
+    var url = 'http://127.0.0.1:8000/page/fileupload'
     window.location.href = url;
   })
 }
