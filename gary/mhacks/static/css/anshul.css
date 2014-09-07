@@ -1,40 +1,3 @@
-body {
-    background-image: url('http://c3e308.medialib.glogster.com/media/cd/cd526905e568a6ca76608763a0f0849e3e49f895d1730808e9e849253a014958/blue-pattern-twitter-background.jpg');
-    background-size: 80%;
-    background-color: #cccccc;
-    font: 10px sans-serif;
-
-}
-
-.home_welcome1 {
-	padding-left: 32%;
-	font-size:500%;
-	margin-bottom: 10%;
-	margin-top: 5%;
-	font-family: 'Indie Flower', cursive;
-	color: #FA8072;
-	font-weight: bold;
-}
-
-.home_welcome2 {
-	padding-left: 29%;
-	font-size:500%;
-	font-family: 'Indie Flower', cursive;
-	color: #FA8072;
-	font-weight: bold;
-}
-
-.unique_uber {
-	display: none;
-}
-
-.unique_bloomberg {
-	display: none;
-}
-
-.unique_custom {
-	display: none;
-}
 
 .axis path,
 .axis line {
@@ -50,26 +13,6 @@ body {
 .line1 {
   fill: none;
   stroke: steelblue;
-  stroke-width: 1.5px;
-}
-.line2 {
-  fill: none;
-  stroke: red;
-  stroke-width: 1.5px;
-}
-.line3 {
-  fill: none;
-  stroke: green;
-  stroke-width: 1.5px;
-}
-.line4 {
-  fill: none;
-  stroke: orange;
-  stroke-width: 1.5px;
-}
-.line5 {
-  fill: none;
-  stroke: black;
   stroke-width: 1.5px;
 }
 
