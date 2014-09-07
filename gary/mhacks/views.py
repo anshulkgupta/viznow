@@ -26,6 +26,9 @@ def airline_page(request):
 def bubble_page(request):
   return render(request, 'custom_final_bubble.html')
 
+def globe_page(request):
+  return render(request, 'custom_final_globe.html')
+
 def chord_page(request):
   return render(request, 'custom_final_chord.html')
 
