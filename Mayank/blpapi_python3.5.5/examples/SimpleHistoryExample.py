@@ -28,7 +28,7 @@ def parseCmdLine():
 def main_helper():
     options = parseCmdLine()
     #json = "{"
-    json = "["
+    json = "{"
     # Fill SessionOptions
     sessionOptions = blpapi.SessionOptions()
     sessionOptions.setServerHost(options.host)
@@ -58,6 +58,10 @@ def main_helper():
 
         request.getElement("securities").appendValue("IBM US Equity")
         request.getElement("securities").appendValue("MSFT US Equity")
+        #request.getElement("securities").appendValue("AAPL US Equity")
+        #request.getElement("securities").appendValue("AMGN US Equity")
+        #request.getElement("securities").appendValue("SPY US Equity")
+        
         
        # request.getElement("securities").appendValue("FDDSGDP Index") #deficit as % of GDP
 
@@ -66,9 +70,9 @@ def main_helper():
         for field in field_list:
             request.getElement("fields").appendValue(field)
         request.set("periodicityAdjustment", "ACTUAL")
-        request.set("periodicitySelection", "YEARLY")
-        request.set("startDate", "19900101")
-        request.set("endDate", "20061231")
+        request.set("periodicitySelection", "MONTHLY")
+        request.set("startDate", "20050101")
+        request.set("endDate", "20131231")
         request.set("maxDataPoints", 100)
         
         #request.getElement("securities").getValueAs(arr, 0)
@@ -87,7 +91,7 @@ def main_helper():
             x = 1
             for msg in ev:
                 if msg.asElement().name() == "HistoricalDataResponse":
-                    json = json + '"' + msg.asElement().getElement("securityData").getElementAsString("security") + '": {' 
+                    json = json + '"' + msg.asElement().getElement("securityData").getElementAsString("security") + '": [' 
                     for datapoint in msg.asElement().getElement("securityData").getElement("fieldData").values():
                         date = datapoint.getElementAsString("date")
                         json = json + '{"' + "DATE" + '": "' + date + '",'
@@ -97,7 +101,7 @@ def main_helper():
                         json = json[:-1]                        
                         json = json + '},'
                     json = json[:-1]
-                    json = json + '},'
+                    json = json + '],'
             if ev.eventType() == blpapi.Event.RESPONSE:
                 # Response completly received, so we could exit
                 break
@@ -105,7 +109,7 @@ def main_helper():
         # Stop the session
         json = json[:-1]
        # json = json + "}"
-        json = json + "]"
+        json = json + "}"
         return json
         session.stop()
 
