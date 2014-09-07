@@ -1,6 +1,6 @@
 function bloomberg_button(){
   $(".bloomberg_data").click(function() {
-    var url = 'http://127.0.0.1:8000/page/Bloomberg'
+    var url = 'http://127.0.0.1:8000/page/Bloomberg/1'
     window.location.href = url;
   })
 }
