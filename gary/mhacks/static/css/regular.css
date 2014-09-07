@@ -21,3 +21,15 @@ body {
 	color: #FA8072;
 	font-weight: bold;
 }
+
+.unique_uber {
+	display: none;
+}
+
+.unique_bloomberg {
+	display: none;
+}
+
+.unique_custom {
+	display: none;
+}
