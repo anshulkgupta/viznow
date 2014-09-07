@@ -32,9 +32,9 @@ class Field:
 
            request.getElement("securities").appendValue("IBM US Equity")
            request.getElement("securities").appendValue("MSFT US Equity")
-           #request.getElement("securities").appendValue("AAPL US Equity")
-           #request.getElement("securities").appendValue("AMGN US Equity")
-           #request.getElement("securities").appendValue("SPY US Equity")
+           request.getElement("securities").appendValue("AAPL US Equity")
+           request.getElement("securities").appendValue("AMGN US Equity")
+           request.getElement("securities").appendValue("SPY US Equity")
            
            
           # request.getElement("securities").appendValue("FDDSGDP Index") #deficit as % of GDP
@@ -47,7 +47,7 @@ class Field:
            request.set("periodicitySelection", "MONTHLY")
            request.set("startDate", "20050101")
            request.set("endDate", "20131231")
-           request.set("maxDataPoints", 100)
+           request.set("maxDataPoints", 1000)
            
            #request.getElement("securities").getValueAs(arr, 0)
            #for x in arr:
