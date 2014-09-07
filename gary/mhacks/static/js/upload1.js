@@ -14,7 +14,7 @@ function custom_button(){
 
 function uber_button(){
   $(".uber_data").click(function() {
-    var url = 'http://127.0.0.1:8000/page/Uber'
+    var url = 'http://127.0.0.1:8000/uber'
     window.location.href = url;
   })
 }

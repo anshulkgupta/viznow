@@ -14,8 +14,23 @@ EQUITY_MAP = {
 def home_page(request):
   return render(request, 'home.html')
 
+def uber_page(request):
+  return render(request, 'final_uber.html')
+
 def enter_page(request):
   return render(request, 'enter.html')
+
+def bubble_page(request):
+  return render(request, 'custom_final_bubble.html')
+
+def chord_page(request):
+  return render(request, 'custom_final_chord.html')
+
+def line_page(request):
+  return render(request, 'custom_final_line.html')
+
+def chloropleth_page(request):
+  return render(request, 'custom_final_chloropleth.html')
 
 def final_custom_page(request, page, id):
   return render(request, 'custom_final.html', {'page' : page, 'id': id})
