@@ -4,8 +4,9 @@ function click_handlers(){
   	var button_value = this.id;
   	button_number = button_value.split('_');
   	number = button_number[1];
+    console.log(number)
   	var url = document.URL;
-  	url += '/' + number
+  	url += '/' + 'fileupload' + '/' + number
   	window.location.href = url;
   });
 }

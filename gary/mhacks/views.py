@@ -17,8 +17,11 @@ def home_page(request):
 def enter_page(request):
   return render(request, 'enter.html')
 
-def fileupload_page(request):
-  return render(request, 'fileupload.html')
+def final_custom_page(request, page, id):
+  return render(request, 'custom_final.html', {'page' : page, 'id': id})
+
+def fileupload_page(request, page, id):
+  return render(request, 'fileupload.html', {'page' : page, 'id': id})
 
 def upload_page(request):
   return render(request, 'upload1.html')

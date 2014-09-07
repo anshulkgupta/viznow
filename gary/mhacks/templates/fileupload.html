@@ -12,6 +12,7 @@
 
 		<!-- The main CSS file -->
 		<link href="{% static 'css/fileupload_style.css' %}" rel="stylesheet" />
+		<link href="{% static 'css/anshul.css' %}" rel="stylesheet" />
 	</head>
 
 	<body>
@@ -22,6 +23,10 @@
 
 				<a>Browse</a>
 				<input type="file" name="upl" multiple />
+
+				<div type="" id="fileupload_next">
+				Next!
+				</div>
 			</div>
 
 			<ul>
@@ -33,6 +38,7 @@
 		<!-- JavaScript Includes -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 		<script src="{% static 'js/fileupload_script.js' %}"></script>
+		<script src="{% static 'js/fileup.js' %}"></script>
 
 		<!-- jQuery File Upload Dependencies -->
 		<script src="{% static 'js/fileupload_jquery.ui.widget.js' %}"></script>
@@ -40,7 +46,14 @@
 		<script src="{% static 'fileupload_jquery.fileupload.js' %}"></script>
 		
 		<!-- Our main JS file -->
-		<script src="assets/js/script.js"></script>
+		<script>
+			$("#fileupload_next").click(function(event) {
+			    var url = document.URL;
+			    url += '/final';
+			    window.location.href = url;
+			  });
+		</script>
+
 
 
 		<!-- Only used for the demos. Please ignore and remove. --> 

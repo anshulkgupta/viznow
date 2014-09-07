@@ -1,3 +1,17 @@
+#fileupload_next {
+  margin-top: 20px;
+  background-color:#007BA7;
+  padding:12px 26px;
+  color:#fff;
+  font-size:14px;
+  border-radius:2px;
+  cursor:pointer;
+  display:inline-block;
+  margin-top:12px;
+  line-height:1;
+  
+}
+
 
 .axis path,
 .axis line {
