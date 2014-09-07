@@ -22,25 +22,25 @@
         
 
         <form id = "visualization-form" class = "form" method = "post" action="">
-
+          {% csrf_token %}
 
           <div class="form-group">
             <label class="control-label col-lg-4" for="inputSuccess">Equity: </label>
             <div class="col-lg-9">
                 <label class="checkbox-inline">
-                    <input type="checkbox" id="inlineCheckbox1" value="option1"> AAPL US Equity
+                    <input type="checkbox" id="AAPL" value="AAPL"> AAPL US Equity
                 </label>
                 <label class="checkbox-inline">
-                    <input type="checkbox" id="inlineCheckbox2" value="option2"> MSFT US Equity
+                    <input type="checkbox" id="MSFT" value="MSFT"> MSFT US Equity
                 </label>
                 <label class="checkbox-inline">
-                    <input type="checkbox" id="inlineCheckbox3" value="option3"> GOOG US Equity
+                    <input type="checkbox" id="GOOG" value="GOOG"> GOOG US Equity
                 </label>
                 <label class="checkbox-inline">
-                    <input type="checkbox" id="inlineCheckbox3" value="option4"> IBM US Equity
+                    <input type="checkbox" id="IBM" value="IBM"> IBM US Equity
                 </label>
                 <label class="checkbox-inline">
-                    <input type="checkbox" id="inlineCheckbox3" value="option4"> FB US Equity
+                    <input type="checkbox" id="FB" value="FB"> FB US Equity
                 </label>
 
             </div>
@@ -61,8 +61,8 @@
               </select>
             </div>
           </div>
-
-
+          <button type="submit" class="btn btn-danger">Visualize It!</button>
+        </form>
 
       </div>
     </div>

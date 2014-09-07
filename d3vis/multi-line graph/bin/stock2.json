@@ -1,0 +1,121 @@
+[
+    {
+        "DATE": "1990-12-31",
+        "LAST_PRICE": "1.0451",
+        "OPEN": "0.6059",
+        "VOLUME": "18739080000.0",
+        "YEST_LAST_TRADE": "0.6042"
+    },
+    {
+        "DATE": "1991-12-31",
+        "LAST_PRICE": "2.3177",
+        "OPEN": "1.0417",
+        "VOLUME": "17144090400.0",
+        "YEST_LAST_TRADE": "1.0451"
+    },
+    {
+        "DATE": "1992-12-31",
+        "LAST_PRICE": "2.668",
+        "OPEN": "2.3073",
+        "VOLUME": "15531065600.0",
+        "YEST_LAST_TRADE": "2.3177"
+    },
+    {
+        "DATE": "1993-12-31",
+        "LAST_PRICE": "2.5195",
+        "OPEN": "2.6719",
+        "VOLUME": "16371622400.0",
+        "YEST_LAST_TRADE": "2.668"
+    },
+    {
+        "DATE": "1994-12-31",
+        "LAST_PRICE": "3.8203",
+        "OPEN": "2.5195",
+        "VOLUME": "17047027200.0",
+        "YEST_LAST_TRADE": "2.5195"
+    },
+    {
+        "DATE": "1995-12-31",
+        "LAST_PRICE": "5.4844",
+        "OPEN": "3.8438",
+        "VOLUME": "19292287840.0",
+        "YEST_LAST_TRADE": "3.8203"
+    },
+    {
+        "DATE": "1996-12-31",
+        "LAST_PRICE": "10.3281",
+        "OPEN": "5.4922",
+        "VOLUME": "18263040000.0",
+        "YEST_LAST_TRADE": "5.4844"
+    },
+    {
+        "DATE": "1997-12-31",
+        "LAST_PRICE": "16.1563",
+        "OPEN": "10.3906",
+        "VOLUME": "16417445600.0",
+        "YEST_LAST_TRADE": "10.3281"
+    },
+    {
+        "DATE": "1998-12-31",
+        "LAST_PRICE": "34.6719",
+        "OPEN": "16.2031",
+        "VOLUME": "15015933600.0",
+        "YEST_LAST_TRADE": "16.1563"
+    },
+    {
+        "DATE": "1999-12-31",
+        "LAST_PRICE": "58.375",
+        "OPEN": "34.9023",
+        "VOLUME": "15075037600.0",
+        "YEST_LAST_TRADE": "34.6719"
+    },
+    {
+        "DATE": "2000-12-31",
+        "LAST_PRICE": "21.6875",
+        "OPEN": "58.6875",
+        "VOLUME": "20308278000.0",
+        "YEST_LAST_TRADE": "58.375"
+    },
+    {
+        "DATE": "2001-12-31",
+        "LAST_PRICE": "33.125",
+        "OPEN": "22.0625",
+        "VOLUME": "18936050600.0",
+        "YEST_LAST_TRADE": "21.6875"
+    },
+    {
+        "DATE": "2002-12-31",
+        "LAST_PRICE": "25.85",
+        "OPEN": "33.325",
+        "VOLUME": "19418032762.0",
+        "YEST_LAST_TRADE": "33.125"
+    },
+    {
+        "DATE": "2003-12-31",
+        "LAST_PRICE": "27.37",
+        "OPEN": "26.15",
+        "VOLUME": "16458086530.0",
+        "YEST_LAST_TRADE": "25.85"
+    },
+    {
+        "DATE": "2004-12-31",
+        "LAST_PRICE": "26.72",
+        "OPEN": "27.58",
+        "VOLUME": "16892664546.0",
+        "YEST_LAST_TRADE": "27.37"
+    },
+    {
+        "DATE": "2005-12-31",
+        "LAST_PRICE": "26.15",
+        "OPEN": "26.8",
+        "VOLUME": "16879581417.0",
+        "YEST_LAST_TRADE": "26.72"
+    },
+    {
+        "DATE": "2006-12-31",
+        "LAST_PRICE": "29.86",
+        "OPEN": "26.25",
+        "VOLUME": "16864742396.0",
+        "YEST_LAST_TRADE": "26.15"
+    }
+]
