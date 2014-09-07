@@ -18,6 +18,16 @@
 	<script type="text/javascript" src="bloomberg.js"></script>
  	<script>
 	console.log("swag");
+	$(document).ready(function(){
+		var options = {
+    	"filename" : "cities.csv", //all
+    	"matrix" : "matrix.json", //chordDiagram
+    	"yaxislabel" : "Mean Temperature (F)", //lineGraph
+    	"xaxis" : "PST", //lineGraph
+    	"yaxis" : "Mean TemperatureF" //lineGraph
+		};
+		chordDiagram(options);
+	});
 	</script>
 </body>
 </html>
