@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+	<p>Hello! This is a good overview of everything involved.</p>
+
+	<h1>Different graphs.</h1>
+	<div class="container">
+		<div id="svg"></div>
+	</div>
+	<script type="text/javascript" src="d3.min.js"></script>
+	<script type="text/javascript" src="jquery.min.js"></script>
+	<script type="text/javascript" src="queue.v1.min.js"></script>
+	<script type="text/javascript" src="topojson.v1.min.js"></script>
+	<script type="text/javascript" src="master.js"></script>
+	<script>
+	$(document).ready(function(){
+		var options = {
+    	"filename" : "data.json", //all
+    	"matrix" : "matrix.json", //chordDiagram
+    	"yaxislabel" : "Mean Temperature (F)", //lineGraph
+    	"xaxis" : "PST", //lineGraph
+    	"yaxis" : "Mean TemperatureF" //lineGraph
+		};
+		lineGraph(options);
+	});
+	</script>
+</body>
+</html>
