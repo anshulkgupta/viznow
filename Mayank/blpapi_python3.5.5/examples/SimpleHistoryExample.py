@@ -57,7 +57,11 @@ def main_helper():
         
 
         request.getElement("securities").appendValue("IBM US Equity")
-        #request.getElement("securities").appendValue("MSFT US Equity")
+        request.getElement("securities").appendValue("MSFT US Equity")
+        request.getElement("securities").appendValue("AAPL US Equity")
+        request.getElement("securities").appendValue("AMGN US Equity")
+        request.getElement("securities").appendValue("SPY US Equity")
+        
         
        # request.getElement("securities").appendValue("FDDSGDP Index") #deficit as % of GDP
 
@@ -67,8 +71,8 @@ def main_helper():
             request.getElement("fields").appendValue(field)
         request.set("periodicityAdjustment", "ACTUAL")
         request.set("periodicitySelection", "MONTHLY")
-        request.set("startDate", "19900101")
-        request.set("endDate", "20061231")
+        request.set("startDate", "20050101")
+        request.set("endDate", "20131231")
         request.set("maxDataPoints", 100)
         
         #request.getElement("securities").getValueAs(arr, 0)
