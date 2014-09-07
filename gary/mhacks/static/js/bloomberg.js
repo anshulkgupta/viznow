@@ -1,4 +1,4 @@
-var data = {};
+var contents = {};
 var arr="";
 var data1, data2, data3, data4, data5 = null;
 
@@ -20,7 +20,7 @@ $(document).ready(function () {
       	"yaxis" : null//lineGraph
       };
 
-      
+
       $("#visualize_it").on("click", function(){
         arr="";
         var string = $( "#visualization-form" ).serialize();
@@ -68,7 +68,28 @@ $(document).ready(function () {
   .append("g")
   .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-  d3.tsv("data.tsv", function(error, data) {
+  entries = d3.entries(contents);
+
+  var colors = d3.scale.category20()
+    .domain(d3.keys(contents));
+
+  var line = d3.svg.line()
+    .interpolate("basis")
+    .x(function(d) { return x(d.month) })
+    .y(function(d) { return y(d.value) });
+
+  svg1.selectAll(".line")
+    .data(entries)
+  .enter().append("path")
+    .attr("class", "line")
+    // function(d), not just line function 
+    .attr("d", function(d){ return  line(d.value); })
+    .attr("stroke", function(d) { return colors(d.key) });
+
+
+  d3.json(contents, function(error, data) {
+    console.log(data);
+    console.log(contents);
     color.domain(d3.keys(data[0]).filter(function(key) { return key !== "date"; }));
 
     data.forEach(function(d) {
