@@ -6,6 +6,7 @@ admin.autodiscover()
 
 urlpatterns = patterns('',
     url(r'^$', 'mhacks.views.enter_page'),
+    url(r'^trial/?$', 'mhacks.views.airline_page'),
     url(r'^home/?$', 'mhacks.views.home_page'),
     url(r'^uber/?$', 'mhacks.views.uber_page'),
     url(r'^page/Custom/fileupload/Bubble/YES/?$', 'mhacks.views.bubble_page'),

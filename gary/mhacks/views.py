@@ -20,6 +20,9 @@ def uber_page(request):
 def enter_page(request):
   return render(request, 'enter.html')
 
+def airline_page(request):
+  return render(request, 'flightanimation.html')
+
 def bubble_page(request):
   return render(request, 'custom_final_bubble.html')
 
