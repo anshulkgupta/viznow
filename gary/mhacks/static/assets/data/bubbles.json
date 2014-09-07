@@ -1,0 +1,297 @@
+{
+    "name": "United States Government",
+    "children": [
+        {
+            "name": "Constitution",
+            "children": [
+                {
+                    "name": "Judicial Branch",
+                    "children": [
+                        {
+                            "name": "Supreme Court",
+                            "size": 6000,
+                            "children": [
+                                {
+                                    "name": "Chief Justice, John Roberts",
+                                    "size": 6000
+                                },
+                                {
+                                    "name": "Justice, Clarence Thomas",
+                                    "size": 4000
+                                },
+                                {
+                                    "name": "Justice, Antonin Scalia",
+                                    "size": 4000
+                                },
+                                {
+                                    "name": "Justice, Anthony Kennedy",
+                                    "size": 4000
+                                },
+                                {
+                                    "name": "Justice, Ruth Ginsburg",
+                                    "size": 4000
+                                }
+                            ]
+                        },
+                        {
+                            "name": "State Government",
+                            "size": 3000
+                        },
+                        {
+                            "name": "Small Claims Court",
+                            "size": 1000
+                        }
+                    ]
+                },
+                {
+                    "name": "Legislative Branch",
+                    "children": [
+                        {
+                            "name": "Senate",
+                            "size": 5000,
+                            "children": [
+                                {
+                                    "name": "Democratic Majority Leader, Harry Reid",
+                                    "size": 4000
+                                },
+                                {
+                                    "name": "Republican Minority Leader, Mitch McConnel",
+                                    "size": 3000
+                                }
+                            ]
+                        },
+                        {
+                            "name": "House",
+                            "size": 5000,
+                            "children": [
+                                {
+                                    "name": "Speaker of the House, John Boehner",
+                                    "size": 6000
+                                },
+                                {
+                                    "name": "Majority Leader, Kevin McCarthy",
+                                    "size": 4500
+                                },
+                                {
+                                    "name": "Democratic Leader, Nancy Pelosi",
+                                    "size": 4500
+                                },
+                                {
+                                    "name": "Majority Whip, Steve Scalise",
+                                    "size": 1000
+                                },
+                                {
+                                    "name": "Democratic Whip, Steny Hoyer",
+                                    "size": 1000
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Executive Branch",
+                    "children": [
+                        {
+                            "name": "President, Barak Obama",
+                            "size": 80000,
+                            "children": [
+                                {
+                                    "name": "Department of Agriculture",
+                                    "size": 5000,
+                                    "children": [
+                                        {
+                                            "name": "Secretary Thomas Vilsack",
+                                            "size": 3500
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Department of State",
+                                    "size": 5000,
+                                    "children": [
+                                        {
+                                            "name": "Secretary John Kerry",
+                                            "size": 3500
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Department of Treasury",
+                                    "size": 5000,
+                                    "children": [
+                                        {
+                                            "name": "Secretary Jack Lew",
+                                            "size": 3500
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Department of Defense",
+                                    "size": 5000,
+                                    "children": [
+                                        {
+                                            "name": "Secretary Chuck Hagel",
+                                            "size": 3500
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Department of Justice",
+                                    "size": 5000,
+                                    "children": [
+                                        {
+                                            "name": "Attorney General Eric Holder, Jr.",
+                                            "size": 3500
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Department of Interior",
+                                    "size": 5000,
+                                    "children": [
+                                        {
+                                            "name": "Secretary Sally Jewell",
+                                            "size": 3500
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Department of Commerce",
+                                    "size": 5000,
+                                    "children": [
+                                        {
+                                            "name": "Secretary Penny Pritzker",
+                                            "size": 3500
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Department of Labor",
+                                    "size": 5000,
+                                    "children": [
+                                        {
+                                            "name": "Secretary Thomas Perez",
+                                            "size": 3500
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Department of Health and Human Services",
+                                    "size": 5000,
+                                    "children": [
+                                        {
+                                            "name": "Secretary Sylvia Burwell",
+                                            "size": 3500
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Department of Housing and Urban Development",
+                                    "size": 5000,
+                                    "children": [
+                                        {
+                                            "name": "Secretary Julian Castro",
+                                            "size": 3500
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Department of Transportation",
+                                    "size": 5000,
+                                    "children": [
+                                        {
+                                            "name": "Secretary Anthony Foxx",
+                                            "size": 3500
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Department of Energy",
+                                    "size": 5000,
+                                    "children": [
+                                        {
+                                            "name": "Secretary Ernest Moniz",
+                                            "size": 3500
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Department of Education",
+                                    "size": 5000,
+                                    "children": [
+                                        {
+                                            "name": "Secretary Arne Duncan",
+                                            "size": 3500
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Department of Veterans Affairs",
+                                    "size": 5000,
+                                    "children": [
+                                        {
+                                            "name": "Secretary Robert McDonald",
+                                            "size": 3500
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Department of Homeland Security",
+                                    "size": 5000,
+                                    "children": [
+                                        {
+                                            "name": "Secretary Jeh Johnson",
+                                            "size": 3500
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Independent Est. and Government Corps.",
+                                    "size": 5000,
+                                    "children": [
+                                        {
+                                            "name": "Central Intelligence Agency",
+                                            "size": 4000
+                                        },
+                                        {
+                                            "name": "Environmental Protection Agency",
+                                            "size": 4000
+                                        },
+                                        {
+                                            "name": "Federal Election Commission",
+                                            "size": 4000
+                                        },
+                                        {
+                                            "name": "General Services Administration",
+                                            "size": 4000
+                                        },
+                                        {
+                                            "name": "Securities & Exchange Commission",
+                                            "size": 4000
+                                        },
+                                        {
+                                            "name": "Small Business Administration",
+                                            "size": 4000
+                                        },
+                                        {
+                                            "name": "Social Security Administration",
+                                            "size": 4000
+                                        },
+                                        {
+                                            "name": "Peace Corps",
+                                            "size": 4000
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Vice President, Joe Biden",
+                            "size": 6000
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

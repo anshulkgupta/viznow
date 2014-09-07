@@ -17,10 +17,21 @@
 <div class= "row">
   <div class= "col-lg-12 col-sm-12 col-xs-12 col-md-12">
   	<section class="panel" id= "custom-file">
-      hi new file
     </section>
   </div>
 </div>
 
+<script>
+$(document).ready(function(){
+    var options = {
+      "filename" : "{% static 'assets/data/bubbles.json' %}", //all
+      "matrix" : null, //chordDiagram
+      "yaxislabel" : "Mean Temperature (F)", //lineGraph
+      "xaxis" : "PST", //lineGraph
+      "yaxis" : "Mean TemperatureF" //lineGraph
+    };
+    zoomableCircle(options);
+  });</script>
+<script src="{% static 'js/master.js' %}"></script>
 <script src="{% static 'js/unique.js' %}"></script>
 {% endblock %}
