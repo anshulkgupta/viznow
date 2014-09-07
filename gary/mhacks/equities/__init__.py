@@ -88,8 +88,5 @@ class Field:
            print json
            session.stop()
 
-
-
-
 if __name__ == "__main__":
     field = Field()

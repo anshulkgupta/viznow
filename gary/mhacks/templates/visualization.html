@@ -22,25 +22,23 @@
         
 
         <form id = "visualization-form" class = "form" method = "post" action="">
-          {% csrf_token %}
-
           <div class="form-group">
             <label class="control-label col-lg-4" for="inputSuccess">Equity: </label>
             <div class="col-lg-9">
                 <label class="checkbox-inline">
-                    <input type="checkbox" id="AAPL" value="AAPL"> AAPL US Equity
+                    <input name="AAPL" type="checkbox" id="AAPL" value="AAPL"> AAPL US Equity
                 </label>
                 <label class="checkbox-inline">
-                    <input type="checkbox" id="MSFT" value="MSFT"> MSFT US Equity
+                    <input name="MSFT" type="checkbox" id="MSFT" value="MSFT"> MSFT US Equity
                 </label>
                 <label class="checkbox-inline">
-                    <input type="checkbox" id="GOOG" value="GOOG"> GOOG US Equity
+                    <input name="GOOG" type="checkbox" id="GOOG" value="GOOG"> GOOG US Equity
                 </label>
                 <label class="checkbox-inline">
-                    <input type="checkbox" id="IBM" value="IBM"> IBM US Equity
+                    <input name="IBM" type="checkbox" id="IBM" value="IBM"> IBM US Equity
                 </label>
                 <label class="checkbox-inline">
-                    <input type="checkbox" id="FB" value="FB"> FB US Equity
+                    <input name="FB" type="checkbox" id="FB" value="FB"> FB US Equity
                 </label>
 
             </div>
@@ -61,7 +59,11 @@
               </select>
             </div>
           </div>
-          <button type="submit" class="btn btn-danger">Visualize It!</button>
+          
+        <div class = "col-lg-offset-4 col-lg-8">
+          <button type="submit" id= "visualize_it" class="btn btn-danger">Visualize It!</button>
+        </div>
+        
         </form>
 
       </div>
@@ -83,5 +85,5 @@
   </div>
 </div>
 
-<script src="{% static 'js/unique.js' %}"></script>
+<script src="{% static 'js/visualization.js' %}"></script>
 {% endblock %}

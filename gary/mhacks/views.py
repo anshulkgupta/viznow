@@ -32,9 +32,6 @@ def handle_upload(request):
   #str_param = EQUITY_MAP.get(equities)
   root = os.path.dirname(__file__)
   json_file = '%s/equities/fixtures/newstock.json' % root 
-
-  import pdb; pdb.set_trace()
-
   json_data = open(json_file).read()
   equities = json.loads(json_data.replace('\n', ''))
 
