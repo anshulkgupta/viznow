@@ -79,9 +79,9 @@ class Field():
                             # Response completly received, so we could exit
                             break
             finally:
-                # Stop the session
-                json = json[:-1]
-                # json = json + "}"
-                json = json + "]"
-                return json
-                session.stop()
+            # Stop the session
+            json = json[:-1]
+            # json = json + "}"
+            json = json + "]"
+            return json
+            session.stop()
