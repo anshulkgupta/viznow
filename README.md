@@ -12,3 +12,9 @@ Ideas for Functionality:
 3. Nest homes
 4. Trading volume
 5. Tweets
+
+Contributors:
+Gary Lin
+Anshul Gupta
+Mayank Mahajan
+Justin Chang
